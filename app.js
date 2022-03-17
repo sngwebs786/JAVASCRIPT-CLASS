@@ -78,7 +78,7 @@
 // && AND
 // ! NOT
 
-var y = 5;
+// var y = 5;
 
 // OR
 
@@ -195,3 +195,26 @@ var y = 5;
 // var cities = ["Karachi","Lahore","Islamabad"]
 // console.log(cities.length)
 
+
+////////////////////////////////////////////////// CLASS 3 JS /////////////////////////////////////////////////////
+
+
+var text = "My name is xyz and what is your name ?"
+
+// console.log(text.toUpperCase())
+
+// console.log(text.indexOf("name"))
+
+// console.log(text.charAt(3))
+
+// text = text.replace(/name/g,"age")
+// console.log(text)
+
+var num = Math.random();
+var diceNum=(num*6)+1
+console.log(diceNum.toFixed(0))
+// console.log(Math.floor(diceNum))
+
+// var num = Number(prompt("Enter any number"));
+// num = num.toString();
+// console.log(2+num)
