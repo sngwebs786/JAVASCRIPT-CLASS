@@ -245,14 +245,48 @@
 // LOCAL AND GLOBAL
 
 // global declaration
-var a = 5;
+// var a = 5;
 
-function abc() {
-  // local declaration
-  var b = 3;
-  console.log(b);
+// function abc() {
+// local declaration
+// var b = 3;
+//   console.log(b);
+// }
+
+// console.log(a);
+
+// abc();
+
+////////////////////////////////////////////////// CLASS 5 JS /////////////////////////////////////////////////////
+
+// alert("Login Successful");
+
+// function myFunc(){
+//   alert("Chl rha h")
+//   console.log("This is console")
+// }
+
+
+
+var myInp = document.getElementById("my-inp");
+var btn = document.getElementById("my-btn")
+
+function getInput() {
+  console.log(myInp.value)
+}
+function setValue(){
+  myInp.value="Abc"
 }
 
-console.log(a);
 
-abc();
+function setText(){
+console.log(btn)
+btn.innerHTML="Click Me"
+}
+
+function readMore(){
+  // console.log("read more")
+  var para = document.getElementById("my-para")
+  var text = "React makes it painless to create interactive UIs. Design simple views for each state in your application, and React will efficiently update and render just the right components when your data changes.Declarative views make your code more predictable and easier to debug."
+  para.innerHTML=text;
+}
