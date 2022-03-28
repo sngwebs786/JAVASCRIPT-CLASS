@@ -1,0 +1,15 @@
+.my-div{
+    background-color: red;
+    height: 400px;
+    width: 200px;
+    font-size: 50px;
+}
+
+.blue{
+    background-color: blue;
+    color: white;
+}
+
+.hide{
+    display: none;
+}
