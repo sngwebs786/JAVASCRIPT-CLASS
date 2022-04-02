@@ -312,5 +312,131 @@
 // }
 
 
-var myDiv = document.getElementById('my-div')
-console.log(myDiv.childNodes[1].childNodes[3]);
+// var myDiv = document.getElementById('my-div')
+// console.log(myDiv.childNodes[1].childNodes[3]);
+
+
+// ////////////////////////////////////////////////// CLASS 7 JS /////////////////////////////////////////////////////
+
+// var myDiv = document.getElementById('my-div')
+// console.log(myDiv.childNodes)
+// console.log(myDiv.firstChild.nextSibling.parentNode)
+// console.log(myDiv.lastChild)
+
+
+// var para = document.getElementById("my-para");
+// console.log(para.nodeType)
+
+// var myDiv = document.getElementById('my-div')
+// console.log(myDiv.childNodes[0].nodeType)
+
+// var lists = document.getElementsByTagName('li')
+// console.log(lists.length)
+
+
+// Attributes
+
+// var para = document.getElementById('my-para')
+// console.log(para.hasAttribute('class'))
+// console.log(para.getAttribute('id'))
+// para.setAttribute('class','pclass')
+// console.log(para)
+
+// var myBtn = document.getElementById('btn')
+
+// function makeList(){
+//     // console.log("chl rha h")
+//     var li = document.createElement("li");
+//     // console.log(li)
+
+//     var liText = document.createTextNode("Hello")
+
+//     li.appendChild(liText)
+//     console.log(li)
+// }
+
+// ////////////////////////////////////////////////// CLASS 8 JS /////////////////////////////////////////////////////
+
+
+// OBJECTS
+
+
+// var student = ["Nashra","A",32]
+
+
+
+// var students = {
+
+//     // key : value
+//     name : "Nashra",
+//     section: "A",
+//     rollNo : 32
+
+// }
+
+// console.log(students.name)
+// console.log(students.section);
+// console.log(students.rollNo);
+// console.log(students['name']);
+
+
+// OBJ inside Array 
+
+// var students = [
+//     {name:"Ali",section:"A",rollNo:1},
+//     {name:"Aliza",section:"A",rollNo:2},
+//     {name:"Ahmed",section:"A",rollNo:3}
+// ]
+
+// console.log(students[0].name)
+// OR
+// console.log(students[0]['name']);
+
+// students[0].name = "Ayesha"
+
+// console.log(students)
+
+
+// var obj = {
+//     name:"xyz",
+//     age:12,
+// }
+
+// CHECK
+// var check = "name" in obj
+// console.log(check)
+
+// DELETE
+// delete obj.age;
+// console.log(obj)
+
+// for(var i in obj){
+//     console.log(i)
+// }
+
+
+
+// METHODS
+
+// var obj ={ 
+//     name : "Nashra",
+//     getName : function(e){
+//         return e;
+//     }    
+// }
+
+
+// console.log(obj.getName("Abc"))
+
+
+// var std = {
+//     name : "Nashra",
+//     id:101,
+//     subjects:["HTML","CSS","JS"],
+//     marks: [80,90,100],
+//     totalMarks : function(){
+//         return this.marks[0]+this.marks[1]+this.marks[2]
+//     }
+// }
+
+// console.log(std.totalMarks())
